@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(r"C:\Users\PIYUSH\Desktop\eye_recording..flv")
+cap = cv2.VideoCapture(r"C:\Users\PIYUSH\Desktop\eye_recording.flv")
 
 while True:
     ret, frame = cap.read()
